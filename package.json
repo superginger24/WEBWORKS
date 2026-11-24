@@ -1,0 +1,11 @@
+{
+  "name": "webworks",
+  "version": "1.0.0",
+  "description": "WebWorks marketing site",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=."
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
