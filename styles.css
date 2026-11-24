@@ -83,6 +83,14 @@ nav a {
 
 .btn-primary:hover { background: var(--primary-dark); }
 
+.hero .btn-primary {
+  background: #000;
+}
+
+.hero .btn-primary:hover {
+  background: #333;
+}
+
 .btn-outline {
   display: inline-block;
   border: 2px solid var(--primary);
