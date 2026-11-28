@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "WebWorks marketing site",
   "scripts": {
-    "dev": "live-server --port=3000 --open=."
+    "dev": "live-server --port=3000 --open=. --watch=index.html,styles.css,projects.js,images",
+    "shot": "node scripts/shot.js"
   },
   "devDependencies": {
     "live-server": "^1.2.2"
